@@ -1,0 +1,50 @@
+html{font-family:Arial;}
+
+#navbar{height:100%;
+position:fixed;
+top:0;
+left:0;
+width:300px;
+border-right:solid rgba(0, 22, 22, 0.4) }
+
+nav{display:block;}
+
+#main-doc{position:absolute;
+margin-left:310px;
+margin-bottom:110px;
+padding:20px;
+display:block;}
+
+#navbar ul li{border-top:solid 1px black;
+list-style:none;
+line-height:2.5;
+display:list-item;
+width:100%;}
+
+#navbar ul li a{text-decoration:none;}
+
+#navbar header{margin:10px;
+text-align:center;
+font-size:1.8em;}
+
+.main-section header{font-size:1.8em;
+color:purple;}
+
+article{padding:15px;}
+
+code{background-color:#f7f7f7;
+line-height:2;
+text-align:left;
+padding:15px;
+margin:10px;
+font-family:Monospace;
+font-size:0.96em;
+border-radius:5px;
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+}}
