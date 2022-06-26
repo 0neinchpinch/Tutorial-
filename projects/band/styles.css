@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url(fonts/BOOTERFF.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+*{box-sizing: border-box;
+font-family: Raleway;
+color:#777;}
+
+html,body{margin:0;
+padding:0;}
+
+.nav ul{margin:0;}
+
+.nav li{display: inline-block;
+padding:0 1%;}
+
+.nav a{display:inline-block;
+padding: 0.5em;
+text-decoration: none;}
+
+.nav a:hover {
+    background-color:lightblue;
+ 
+}
+
+.nav{padding-top:1.8em;
+font-size: 1.1em;
+border-bottom: 1px solid #777;}
+
+.main-header{background-image:url(images/background-iamge.png) ;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+background-blend-mode: multiply;
+margin:0;
+}
+
+.main-heading{padding-left:43%;
+    font-size: 2em;
+    font-family: "Booter - Zero Zero";
+}
+
+.content-section {margin:1em;}
+
+.container{max-width: 900px;
+margin:0 auto;}
+
+.about-image{float:left;
+height:500px;
+width:700px;
+margin:15px;
+border-radius:50%;}
+
+.main-footer{background-color:lightblue;
+color:#777;
+padding: 0.25em;
+}
+
+h3{font-family: "Booter - Zero Zero";
+font-size:2em;
+padding:1.8em;}
+
+.main-footer-container{display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;}
+
+.main-footer li{display: inline-block;
+}
+
+.main-footer ul{margin-right:2.6em;}
+
